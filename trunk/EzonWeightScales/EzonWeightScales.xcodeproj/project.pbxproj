@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C4FDBF15D49A65002AF02C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C4FDBE15D49A65002AF02C /* UIKit.framework */; };
+		18C4FDC115D49A65002AF02C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C4FDC015D49A65002AF02C /* Foundation.framework */; };
+		18C4FDC315D49A65002AF02C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C4FDC215D49A65002AF02C /* CoreGraphics.framework */; };
+		18C4FDC915D49A65002AF02C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C4FDC715D49A65002AF02C /* InfoPlist.strings */; };
+		18C4FDCB15D49A65002AF02C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4FDCA15D49A65002AF02C /* main.m */; };
+		18C4FDCF15D49A65002AF02C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4FDCE15D49A65002AF02C /* AppDelegate.m */; };
+		18C4FDD715D49A65002AF02C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C4FDD615D49A65002AF02C /* SenTestingKit.framework */; };
+		18C4FDD815D49A65002AF02C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C4FDBE15D49A65002AF02C /* UIKit.framework */; };
+		18C4FDD915D49A65002AF02C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C4FDC015D49A65002AF02C /* Foundation.framework */; };
+		18C4FDE115D49A65002AF02C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C4FDDF15D49A65002AF02C /* InfoPlist.strings */; };
+		18C4FDE415D49A65002AF02C /* EzonWeightScalesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4FDE315D49A65002AF02C /* EzonWeightScalesTests.m */; };
+		18C4FDF215D49AD4002AF02C /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C4FDF115D49AD4002AF02C /* Main.xib */; };
+		18C4FDFA15D49DEC002AF02C /* WeightScales.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4FDF815D49DEC002AF02C /* WeightScales.m */; };
+		18C4FDFB15D49DEC002AF02C /* WeightScales.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C4FDF915D49DEC002AF02C /* WeightScales.xib */; };
+		18C4FDFF15D49E0E002AF02C /* DataHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4FDFD15D49E0E002AF02C /* DataHistory.m */; };
+		18C4FE0015D49E0E002AF02C /* DataHistory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C4FDFE15D49E0E002AF02C /* DataHistory.xib */; };
+		18C4FE0415D49ED1002AF02C /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4FE0215D49ED1002AF02C /* Settings.m */; };
+		18C4FE0515D49ED1002AF02C /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C4FE0315D49ED1002AF02C /* Settings.xib */; };
+		18C4FE0915D49EE8002AF02C /* UserManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4FE0715D49EE8002AF02C /* UserManage.m */; };
+		18C4FE0A15D49EE8002AF02C /* UserManage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C4FE0815D49EE8002AF02C /* UserManage.xib */; };
+		18C8124215D4E0D100AF318D /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C8123E15D4E0D100AF318D /* setting.png */; };
+		18C8124315D4E0D100AF318D /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C8123F15D4E0D100AF318D /* user.png */; };
+		18C8124415D4E0D100AF318D /* weightscales.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C8124015D4E0D100AF318D /* weightscales.png */; };
+		18C8124515D4E0D100AF318D /* datahistory.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C8124115D4E0D100AF318D /* datahistory.png */; };
+		18DDDD2615D4E24000486C60 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DDDD2415D4E24000486C60 /* pin.png */; };
+		18DDDD2715D4E24000486C60 /* tach.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DDDD2515D4E24000486C60 /* tach.png */; };
+		18DDDD2A15D4E41100486C60 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DDDD2915D4E41100486C60 /* QuartzCore.framework */; };
+		18FFC4EB15D53D280060D2E6 /* ListForHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFC4EA15D53D280060D2E6 /* ListForHistoryController.m */; };
+		18FFC4EE15D53D470060D2E6 /* GraphForHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFC4ED15D53D470060D2E6 /* GraphForHistoryController.m */; };
+		2A9DACFC15DA306C00FEFECD /* speed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9DACFB15DA306C00FEFECD /* speed.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C4FDDA15D49A65002AF02C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C4FDB115D49A64002AF02C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C4FDB915D49A65002AF02C;
+			remoteInfo = EzonWeightScales;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C4FDBA15D49A65002AF02C /* EzonWeightScales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzonWeightScales.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C4FDBE15D49A65002AF02C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18C4FDC015D49A65002AF02C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18C4FDC215D49A65002AF02C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18C4FDC615D49A65002AF02C /* EzonWeightScales-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EzonWeightScales-Info.plist"; sourceTree = "<group>"; };
+		18C4FDC815D49A65002AF02C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18C4FDCA15D49A65002AF02C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C4FDCC15D49A65002AF02C /* EzonWeightScales-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EzonWeightScales-Prefix.pch"; sourceTree = "<group>"; };
+		18C4FDCD15D49A65002AF02C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C4FDCE15D49A65002AF02C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C4FDD515D49A65002AF02C /* EzonWeightScalesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzonWeightScalesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C4FDD615D49A65002AF02C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		18C4FDDE15D49A65002AF02C /* EzonWeightScalesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EzonWeightScalesTests-Info.plist"; sourceTree = "<group>"; };
+		18C4FDE015D49A65002AF02C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18C4FDE215D49A65002AF02C /* EzonWeightScalesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EzonWeightScalesTests.h; sourceTree = "<group>"; };
+		18C4FDE315D49A65002AF02C /* EzonWeightScalesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EzonWeightScalesTests.m; sourceTree = "<group>"; };
+		18C4FDF115D49AD4002AF02C /* Main.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		18C4FDF715D49DEC002AF02C /* WeightScales.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightScales.h; sourceTree = "<group>"; };
+		18C4FDF815D49DEC002AF02C /* WeightScales.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightScales.m; sourceTree = "<group>"; };
+		18C4FDF915D49DEC002AF02C /* WeightScales.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeightScales.xib; sourceTree = "<group>"; };
+		18C4FDFC15D49E0E002AF02C /* DataHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHistory.h; sourceTree = "<group>"; };
+		18C4FDFD15D49E0E002AF02C /* DataHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHistory.m; sourceTree = "<group>"; };
+		18C4FDFE15D49E0E002AF02C /* DataHistory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataHistory.xib; sourceTree = "<group>"; };
+		18C4FE0115D49ED1002AF02C /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		18C4FE0215D49ED1002AF02C /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		18C4FE0315D49ED1002AF02C /* Settings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
+		18C4FE0615D49EE8002AF02C /* UserManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManage.h; sourceTree = "<group>"; };
+		18C4FE0715D49EE8002AF02C /* UserManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManage.m; sourceTree = "<group>"; };
+		18C4FE0815D49EE8002AF02C /* UserManage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserManage.xib; sourceTree = "<group>"; };
+		18C8123E15D4E0D100AF318D /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		18C8123F15D4E0D100AF318D /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		18C8124015D4E0D100AF318D /* weightscales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weightscales.png; sourceTree = "<group>"; };
+		18C8124115D4E0D100AF318D /* datahistory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = datahistory.png; sourceTree = "<group>"; };
+		18DDDD2415D4E24000486C60 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		18DDDD2515D4E24000486C60 /* tach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tach.png; sourceTree = "<group>"; };
+		18DDDD2915D4E41100486C60 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18FFC4E915D53D280060D2E6 /* ListForHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListForHistoryController.h; sourceTree = "<group>"; };
+		18FFC4EA15D53D280060D2E6 /* ListForHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListForHistoryController.m; sourceTree = "<group>"; };
+		18FFC4EC15D53D470060D2E6 /* GraphForHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphForHistoryController.h; sourceTree = "<group>"; };
+		18FFC4ED15D53D470060D2E6 /* GraphForHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphForHistoryController.m; sourceTree = "<group>"; };
+		2A9DACFB15DA306C00FEFECD /* speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speed.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C4FDB715D49A65002AF02C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DDDD2A15D4E41100486C60 /* QuartzCore.framework in Frameworks */,
+				18C4FDBF15D49A65002AF02C /* UIKit.framework in Frameworks */,
+				18C4FDC115D49A65002AF02C /* Foundation.framework in Frameworks */,
+				18C4FDC315D49A65002AF02C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C4FDD115D49A65002AF02C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C4FDD715D49A65002AF02C /* SenTestingKit.framework in Frameworks */,
+				18C4FDD815D49A65002AF02C /* UIKit.framework in Frameworks */,
+				18C4FDD915D49A65002AF02C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C4FDAF15D49A64002AF02C = {
+			isa = PBXGroup;
+			children = (
+				18C4FDC415D49A65002AF02C /* EzonWeightScales */,
+				18C4FDDC15D49A65002AF02C /* EzonWeightScalesTests */,
+				18C4FDBD15D49A65002AF02C /* Frameworks */,
+				18C4FDBB15D49A65002AF02C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C4FDBB15D49A65002AF02C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C4FDBA15D49A65002AF02C /* EzonWeightScales.app */,
+				18C4FDD515D49A65002AF02C /* EzonWeightScalesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C4FDBD15D49A65002AF02C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18DDDD2915D4E41100486C60 /* QuartzCore.framework */,
+				18C4FDBE15D49A65002AF02C /* UIKit.framework */,
+				18C4FDC015D49A65002AF02C /* Foundation.framework */,
+				18C4FDC215D49A65002AF02C /* CoreGraphics.framework */,
+				18C4FDD615D49A65002AF02C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18C4FDC415D49A65002AF02C /* EzonWeightScales */ = {
+			isa = PBXGroup;
+			children = (
+				18C4FDCD15D49A65002AF02C /* AppDelegate.h */,
+				18C4FDCE15D49A65002AF02C /* AppDelegate.m */,
+				18C4FDF115D49AD4002AF02C /* Main.xib */,
+				18C4FDF415D49D63002AF02C /* DataHistory */,
+				18C4FDF615D49D9A002AF02C /* Settings */,
+				18C4FDC515D49A65002AF02C /* Supporting Files */,
+				18C4FDF515D49D71002AF02C /* UserManage */,
+				18C4FDF315D49CA9002AF02C /* WeightScales */,
+			);
+			path = EzonWeightScales;
+			sourceTree = "<group>";
+		};
+		18C4FDC515D49A65002AF02C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C8123C15D4E07300AF318D /* Images */,
+				18C4FDC615D49A65002AF02C /* EzonWeightScales-Info.plist */,
+				18C4FDC715D49A65002AF02C /* InfoPlist.strings */,
+				18C4FDCA15D49A65002AF02C /* main.m */,
+				18C4FDCC15D49A65002AF02C /* EzonWeightScales-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C4FDDC15D49A65002AF02C /* EzonWeightScalesTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C4FDE215D49A65002AF02C /* EzonWeightScalesTests.h */,
+				18C4FDE315D49A65002AF02C /* EzonWeightScalesTests.m */,
+				18C4FDDD15D49A65002AF02C /* Supporting Files */,
+			);
+			path = EzonWeightScalesTests;
+			sourceTree = "<group>";
+		};
+		18C4FDDD15D49A65002AF02C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C4FDDE15D49A65002AF02C /* EzonWeightScalesTests-Info.plist */,
+				18C4FDDF15D49A65002AF02C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C4FDF315D49CA9002AF02C /* WeightScales */ = {
+			isa = PBXGroup;
+			children = (
+				18C4FDF715D49DEC002AF02C /* WeightScales.h */,
+				18C4FDF815D49DEC002AF02C /* WeightScales.m */,
+				18C4FDF915D49DEC002AF02C /* WeightScales.xib */,
+			);
+			name = WeightScales;
+			sourceTree = "<group>";
+		};
+		18C4FDF415D49D63002AF02C /* DataHistory */ = {
+			isa = PBXGroup;
+			children = (
+				18C4FDFC15D49E0E002AF02C /* DataHistory.h */,
+				18C4FDFD15D49E0E002AF02C /* DataHistory.m */,
+				18C4FDFE15D49E0E002AF02C /* DataHistory.xib */,
+				18FFC4E915D53D280060D2E6 /* ListForHistoryController.h */,
+				18FFC4EA15D53D280060D2E6 /* ListForHistoryController.m */,
+				18FFC4EC15D53D470060D2E6 /* GraphForHistoryController.h */,
+				18FFC4ED15D53D470060D2E6 /* GraphForHistoryController.m */,
+			);
+			name = DataHistory;
+			sourceTree = "<group>";
+		};
+		18C4FDF515D49D71002AF02C /* UserManage */ = {
+			isa = PBXGroup;
+			children = (
+				18C4FE0615D49EE8002AF02C /* UserManage.h */,
+				18C4FE0715D49EE8002AF02C /* UserManage.m */,
+				18C4FE0815D49EE8002AF02C /* UserManage.xib */,
+			);
+			name = UserManage;
+			sourceTree = "<group>";
+		};
+		18C4FDF615D49D9A002AF02C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				18C4FE0115D49ED1002AF02C /* Settings.h */,
+				18C4FE0215D49ED1002AF02C /* Settings.m */,
+				18C4FE0315D49ED1002AF02C /* Settings.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		18C8123C15D4E07300AF318D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2A9DACFB15DA306C00FEFECD /* speed.png */,
+				18DDDD2415D4E24000486C60 /* pin.png */,
+				18DDDD2515D4E24000486C60 /* tach.png */,
+				18C8123E15D4E0D100AF318D /* setting.png */,
+				18C8123F15D4E0D100AF318D /* user.png */,
+				18C8124015D4E0D100AF318D /* weightscales.png */,
+				18C8124115D4E0D100AF318D /* datahistory.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C4FDB915D49A65002AF02C /* EzonWeightScales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C4FDE715D49A65002AF02C /* Build configuration list for PBXNativeTarget "EzonWeightScales" */;
+			buildPhases = (
+				18C4FDB615D49A65002AF02C /* Sources */,
+				18C4FDB715D49A65002AF02C /* Frameworks */,
+				18C4FDB815D49A65002AF02C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzonWeightScales;
+			productName = EzonWeightScales;
+			productReference = 18C4FDBA15D49A65002AF02C /* EzonWeightScales.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C4FDD415D49A65002AF02C /* EzonWeightScalesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C4FDEA15D49A65002AF02C /* Build configuration list for PBXNativeTarget "EzonWeightScalesTests" */;
+			buildPhases = (
+				18C4FDD015D49A65002AF02C /* Sources */,
+				18C4FDD115D49A65002AF02C /* Frameworks */,
+				18C4FDD215D49A65002AF02C /* Resources */,
+				18C4FDD315D49A65002AF02C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C4FDDB15D49A65002AF02C /* PBXTargetDependency */,
+			);
+			name = EzonWeightScalesTests;
+			productName = EzonWeightScalesTests;
+			productReference = 18C4FDD515D49A65002AF02C /* EzonWeightScalesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C4FDB115D49A64002AF02C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 18C4FDB415D49A64002AF02C /* Build configuration list for PBXProject "EzonWeightScales" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18C4FDAF15D49A64002AF02C;
+			productRefGroup = 18C4FDBB15D49A65002AF02C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C4FDB915D49A65002AF02C /* EzonWeightScales */,
+				18C4FDD415D49A65002AF02C /* EzonWeightScalesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C4FDB815D49A65002AF02C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C4FDC915D49A65002AF02C /* InfoPlist.strings in Resources */,
+				18C4FDF215D49AD4002AF02C /* Main.xib in Resources */,
+				18C4FDFB15D49DEC002AF02C /* WeightScales.xib in Resources */,
+				18C4FE0015D49E0E002AF02C /* DataHistory.xib in Resources */,
+				18C4FE0515D49ED1002AF02C /* Settings.xib in Resources */,
+				18C4FE0A15D49EE8002AF02C /* UserManage.xib in Resources */,
+				18C8124215D4E0D100AF318D /* setting.png in Resources */,
+				18C8124315D4E0D100AF318D /* user.png in Resources */,
+				18C8124415D4E0D100AF318D /* weightscales.png in Resources */,
+				18C8124515D4E0D100AF318D /* datahistory.png in Resources */,
+				18DDDD2615D4E24000486C60 /* pin.png in Resources */,
+				18DDDD2715D4E24000486C60 /* tach.png in Resources */,
+				2A9DACFC15DA306C00FEFECD /* speed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C4FDD215D49A65002AF02C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C4FDE115D49A65002AF02C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18C4FDD315D49A65002AF02C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C4FDB615D49A65002AF02C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C4FDCB15D49A65002AF02C /* main.m in Sources */,
+				18C4FDCF15D49A65002AF02C /* AppDelegate.m in Sources */,
+				18C4FDFA15D49DEC002AF02C /* WeightScales.m in Sources */,
+				18C4FDFF15D49E0E002AF02C /* DataHistory.m in Sources */,
+				18C4FE0415D49ED1002AF02C /* Settings.m in Sources */,
+				18C4FE0915D49EE8002AF02C /* UserManage.m in Sources */,
+				18FFC4EB15D53D280060D2E6 /* ListForHistoryController.m in Sources */,
+				18FFC4EE15D53D470060D2E6 /* GraphForHistoryController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C4FDD015D49A65002AF02C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C4FDE415D49A65002AF02C /* EzonWeightScalesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C4FDDB15D49A65002AF02C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C4FDB915D49A65002AF02C /* EzonWeightScales */;
+			targetProxy = 18C4FDDA15D49A65002AF02C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C4FDC715D49A65002AF02C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C4FDC815D49A65002AF02C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18C4FDDF15D49A65002AF02C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C4FDE015D49A65002AF02C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C4FDE515D49A65002AF02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18C4FDE615D49A65002AF02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C4FDE815D49A65002AF02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EzonWeightScales/EzonWeightScales-Prefix.pch";
+				INFOPLIST_FILE = "EzonWeightScales/EzonWeightScales-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18C4FDE915D49A65002AF02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EzonWeightScales/EzonWeightScales-Prefix.pch";
+				INFOPLIST_FILE = "EzonWeightScales/EzonWeightScales-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18C4FDEB15D49A65002AF02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EzonWeightScales.app/EzonWeightScales";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EzonWeightScales/EzonWeightScales-Prefix.pch";
+				INFOPLIST_FILE = "EzonWeightScalesTests/EzonWeightScalesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		18C4FDEC15D49A65002AF02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EzonWeightScales.app/EzonWeightScales";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EzonWeightScales/EzonWeightScales-Prefix.pch";
+				INFOPLIST_FILE = "EzonWeightScalesTests/EzonWeightScalesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C4FDB415D49A64002AF02C /* Build configuration list for PBXProject "EzonWeightScales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C4FDE515D49A65002AF02C /* Debug */,
+				18C4FDE615D49A65002AF02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C4FDE715D49A65002AF02C /* Build configuration list for PBXNativeTarget "EzonWeightScales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C4FDE815D49A65002AF02C /* Debug */,
+				18C4FDE915D49A65002AF02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C4FDEA15D49A65002AF02C /* Build configuration list for PBXNativeTarget "EzonWeightScalesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C4FDEB15D49A65002AF02C /* Debug */,
+				18C4FDEC15D49A65002AF02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C4FDB115D49A64002AF02C /* Project object */;
+}
